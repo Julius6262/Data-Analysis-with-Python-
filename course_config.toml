@@ -1,0 +1,81 @@
+course = "mooc-data-analysis-with-python-2023-2024"
+
+[exercises.part01-e01_hello_world]
+id = 225652
+checksum = "d1d374bd30e433577180e0289b4be079"
+
+[exercises.part01-e02_compliment]
+id = 225647
+checksum = "c5b3871c139657c1bd2bf79c49f2f6bb"
+
+[exercises.part01-e03_multiplication]
+id = 225639
+checksum = "f69a5426ffbff2cc746e4285816a0257"
+
+[exercises.part01-e04_multiplication_table]
+id = 225645
+checksum = "d1d91f3667809648fadacaef3f739f2c"
+
+[exercises.part01-e05_two_dice]
+id = 225642
+checksum = "00ef52530f7d2abdf074b298874d8d4d"
+
+[exercises.part01-e06_triple_square]
+id = 225638
+checksum = "7fe79f74f0e180c9ed8faf3ebe7c71b6"
+
+[exercises.part01-e07_areas_of_shapes]
+id = 225637
+checksum = "6bd56dee9f99a21cd9391f0f112616a4"
+
+[exercises.part01-e08_solve_quadratic]
+id = 225641
+checksum = "9d476518b7a4c08619dbade352cc0d06"
+
+[exercises.part01-e09_merge]
+id = 225650
+checksum = "c33fc086579ab6e13cb1e5e8922a9080"
+
+[exercises.part01-e10_detect_ranges]
+id = 225649
+checksum = "762b151f74abcf56116cd5506aab855a"
+
+[exercises.part01-e11_interleave]
+id = 225651
+checksum = "858de0756683ab1548d8b829660e0136"
+
+[exercises.part01-e12_distinct_characters]
+id = 225644
+checksum = "8d276adb6f602ccca1b0b71035616259"
+
+[exercises.part01-e13_reverse_dictionary]
+id = 225646
+checksum = "4fd3c1e6576c05e64f5f651f842ea5d2"
+
+[exercises.part01-e14_find_matching]
+id = 225648
+checksum = "62f3ac44477e24a8fad5ba6653e26cf9"
+
+[exercises.part01-e15_two_dice_comprehension]
+id = 225636
+checksum = "052823ea2dc32f04fdb37219d6875064"
+
+[exercises.part01-e16_transform]
+id = 225633
+checksum = "947c90d87d144b9ea2438e567e760df7"
+
+[exercises.part01-e17_positive_list]
+id = 225634
+checksum = "106446edf0e1ec7e4b0ffed03f058f25"
+
+[exercises.part01-e18_acronyms]
+id = 225635
+checksum = "6ff7c1b2e7c92466debd7f610271158b"
+
+[exercises.part01-e19_sum_equation]
+id = 225643
+checksum = "3c2468f5065992e44116b50b1f9a2f9c"
+
+[exercises.part01-e20_usemodule]
+id = 225640
+checksum = "d9d2a0c1bb02510f8e74792e4bc92760"
