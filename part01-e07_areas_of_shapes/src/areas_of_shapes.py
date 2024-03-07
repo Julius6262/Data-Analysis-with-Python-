@@ -1,29 +1,36 @@
-#!/usr/bin/env python3
+import math
 
-from math import pi
+def calculate_triangle_area(base, height):
+    return 0.5 * base * height
 
+def calculate_rectangle_area(width, height):
+    return width * height
+
+def calculate_circle_area(radius):
+    return math.pi * radius ** 2
 
 def main():
-    # enter you solution here
     while True:
-        user_shape = input("Choose a shape (triangle, rectangle, circle): ")
-        if user_shape =="":
-            break
-        
-        elif user_shape == "triangle":
-            user_base = float(input("Give base of the triangle: "))
-            user_height = float(input("Give height of the triangle: "))
-            print(f"The area is {(user_base*user_height)/2}")
-        
-        elif user_shape == "rectangle":
-            user_width = float(input("Give width of the rectangle: "))
-            user_height = float(input("Give height of the rectangle:"))
-            print(f"The area is {(user_width*user_height)}")
-        
-        elif user_shape == "circle":
-           user_circle = float(input("Give radius of the circle: "))
-           print(f"The area is {user_circle**2 * pi}")
+        shape = input("Choose a shape (triangle, rectangle, circle): ").lower()
 
-        else: print("Unknown shape!")
+        if shape == '':
+            break 
+
+        if shape == 'triangle':
+            base = float(input("Give base of the triangle: "))
+            height = float(input("Give height of the triangle: "))
+            area = calculate_triangle_area(base, height)
+        elif shape == 'rectangle':
+            width = float(input("Give width of the rectangle: "))
+            height = float(input("Give height of the rectangle: "))
+            area = calculate_rectangle_area(width, height)
+        elif shape == 'circle':
+            radius = float(input("Give radius of the circle: "))
+            area = calculate_circle_area(radius)
+        else:
+            print("Unknown shape!")
+            continue  
+
+        print(f"The area is {area:.6f}")
 if __name__ == "__main__":
     main()
